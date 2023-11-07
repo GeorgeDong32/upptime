@@ -58,19 +58,19 @@
     "url": "$EMERGENCY_PLAN_SITE",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "emergency-plan",
-    "status": "down",
-    "uptime": "0.14%",
-    "uptimeDay": "0.14%",
-    "uptimeWeek": "0.14%",
-    "uptimeMonth": "0.14%",
-    "uptimeYear": "0.14%",
-    "time": 318,
-    "timeDay": 318,
-    "timeWeek": 318,
-    "timeMonth": 318,
-    "timeYear": 318,
+    "status": "up",
+    "uptime": "7.41%",
+    "uptimeDay": "7.41%",
+    "uptimeWeek": "7.41%",
+    "uptimeMonth": "7.41%",
+    "uptimeYear": "7.41%",
+    "time": 325,
+    "timeDay": 325,
+    "timeWeek": 325,
+    "timeMonth": 325,
+    "timeYear": 325,
     "dailyMinutesDown": {
-      "2023-11-07": 13
+      "2023-11-07": 21
     }
   },
   {
