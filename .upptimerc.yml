@@ -5,8 +5,16 @@ repo: upptime # The name of this repository
 sites:
   - name: Bitwarden Service
     url: $BITWARDEN_SITE
+  - name: Image Storage 1
+    url: $STORAGE1_SITE
   - name: Shortlink Service
     url: $SHORTLINK_SITE
+  - name: Emergency Plan
+    url: $EMERGENCY_PLAN_SITE
+  - name: Tailscale
+    url: $TAILSCALE
+  - name: Status Page on Better Stack
+    url: $STATUS_PAGE
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
