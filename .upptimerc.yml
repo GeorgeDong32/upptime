@@ -4,8 +4,10 @@ repo: upptime # The name of this repository
 
 sites:
   - name: Bitwarden Service
+    check: "tcp-ping"
     url: $BITWARDEN_SITE
   - name: Image Storage 1
+    check: "tcp-ping"
     url: $STORAGE1_SITE
   - name: Shortlink Service
     url: $SHORTLINK_SITE
