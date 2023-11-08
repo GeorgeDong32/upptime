@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "bitwarden-service",
     "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
+    "uptime": "99.44%",
+    "uptimeDay": "99.44%",
+    "uptimeWeek": "99.44%",
+    "uptimeMonth": "99.44%",
+    "uptimeYear": "99.44%",
     "time": 3504,
     "timeDay": 3504,
     "timeWeek": 3504,
     "timeMonth": 3504,
     "timeYear": 3504,
     "dailyMinutesDown": {
-      "2023-11-08": 0
+      "2023-11-08": 7
     }
   },
   {
@@ -25,18 +25,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "image-storage-1",
     "status": "down",
-    "uptime": "99.97%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "99.97%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.97%",
+    "uptime": "99.21%",
+    "uptimeDay": "99.21%",
+    "uptimeWeek": "99.21%",
+    "uptimeMonth": "99.21%",
+    "uptimeYear": "99.21%",
     "time": 1298,
     "timeDay": 1298,
     "timeWeek": 1298,
     "timeMonth": 1298,
     "timeYear": 1298,
     "dailyMinutesDown": {
-      "2023-11-08": 0
+      "2023-11-08": 7
     }
   },
   {
@@ -63,11 +63,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "emergency-plan",
     "status": "up",
-    "uptime": "97.74%",
-    "uptimeDay": "97.74%",
-    "uptimeWeek": "97.74%",
-    "uptimeMonth": "97.74%",
-    "uptimeYear": "97.74%",
+    "uptime": "97.76%",
+    "uptimeDay": "97.76%",
+    "uptimeWeek": "97.76%",
+    "uptimeMonth": "97.76%",
+    "uptimeYear": "97.76%",
     "time": 420,
     "timeDay": 420,
     "timeWeek": 420,
