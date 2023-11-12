@@ -7,12 +7,22 @@ sites:
     url: $BITWARDEN_SITE
   - name: Image Storage 1
     url: $STORAGE1_SITE
+  - name: Root
+    url: https://georgedong.tech
+  - name: Blog
+    url: https://blog.georgedong.tech
+  - name: Home Page
+    url: https://www.georgedong.tech
+  - name: GoodPass Site
+    url: https://goodpass.georgedong.tech
   - name: Shortlink Service
     url: $SHORTLINK_SITE
   - name: Emergency Plan
     url: $EMERGENCY_PLAN_SITE
   - name: Tailscale
     url: $TAILSCALE
+  - name: Status Page by upptime
+    url: https://uptime.georgedong.tech
   - name: Status Page on Better Stack
     url: $STATUS_PAGE
 
