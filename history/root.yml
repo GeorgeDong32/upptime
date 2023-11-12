@@ -1,7 +1,7 @@
-url: https://georgedong.tech/
-status: down
-code: 403
-responseTime: 54
-lastUpdated: 2023-11-12T06:58:30.022Z
+url: $ROOT_SERVER
+status: up
+code: 200
+responseTime: 252
+lastUpdated: 2023-11-12T07:05:13.032Z
 startTime: 2023-11-12T06:53:22.938Z
 generator: Upptime <https://github.com/upptime/upptime>
