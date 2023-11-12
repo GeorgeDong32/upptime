@@ -8,7 +8,7 @@ sites:
   - name: Image Storage 1
     url: $STORAGE1_SITE
   - name: Root
-    url: https://georgedong.tech
+    url: https://georgedong.tech/
   - name: Blog
     url: https://blog.georgedong.tech
   - name: Home Page
