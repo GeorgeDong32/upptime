@@ -23,7 +23,7 @@ sites:
   - name: Tailscale
     url: $TAILSCALE
   - name: Status Page by upptime
-    url: https://uptime.georgedong.tech
+    url: https://upptime.georgedong.tech
   - name: Status Page on Better Stack
     url: $STATUS_PAGE
 
