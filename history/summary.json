@@ -175,19 +175,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/upptime.georgedong.tech.ico",
     "slug": "status-page-by-upptime",
     "status": "up",
-    "uptime": "99.96%",
-    "uptimeDay": "99.79%",
-    "uptimeWeek": "99.96%",
-    "uptimeMonth": "99.96%",
-    "uptimeYear": "99.96%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 98,
     "timeDay": 93,
     "timeWeek": 98,
     "timeMonth": 98,
     "timeYear": 98,
-    "dailyMinutesDown": {
-      "2023-11-18": 3
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Status Page on Better Stack",
