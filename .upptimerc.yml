@@ -8,7 +8,6 @@ sites:
   - name: Image Storage 1
     url: $STORAGE1_SITE
   - name: Root
-    check: "tcp-ping"
     url: $ROOT_SERVER
   - name: Blog
     url: https://blog.georgedong.tech
