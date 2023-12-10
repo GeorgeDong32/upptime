@@ -11,7 +11,6 @@ sites:
   - name: Light Server
     check: "tcp-ping"
     url: $LIGHT_SERVER
-    port: 79
   - name: Root
     check: "tcp-ping"
     url: $ROOT_SERVER
