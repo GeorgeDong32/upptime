@@ -8,6 +8,9 @@ sites:
     icon: https://vault.bitwarden.com/images/favicon-32x32.png
   - name: Image Storage 1
     url: $STORAGE1_SITE
+  - name: Light Server
+    check: "tcp-ping"
+    url: $LIGHT_SERVER
   - name: Root
     check: "tcp-ping"
     url: $ROOT_SERVER
@@ -18,9 +21,10 @@ sites:
   - name: GoodPass Site
     url: https://goodpass.georgedong.tech
   - name: Shortlink Service
-    url: $SHORTLINK_SITE
+    url: https://go.georgedong.tech
   - name: Emergency Plan
     url: $EMERGENCY_PLAN_SITE
+    icon: https://www.notion.so/front-static/favicon.ico
   - name: Tailscale
     url: $TAILSCALE
     icon: https://tailscale.com/files/favicon.ico
