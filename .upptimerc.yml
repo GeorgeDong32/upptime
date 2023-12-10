@@ -5,6 +5,7 @@ repo: upptime # The name of this repository
 sites:
   - name: Bitwarden Service
     url: $BITWARDEN_SITE
+    icon: https://vault.bitwarden.com/images/favicon-32x32.png
   - name: Image Storage 1
     url: $STORAGE1_SITE
   - name: Root
@@ -22,6 +23,7 @@ sites:
     url: $EMERGENCY_PLAN_SITE
   - name: Tailscale
     url: $TAILSCALE
+    icon: https://tailscale.com/files/favicon.ico
   - name: Status Page by upptime
     url: https://upptime.georgedong.tech
   - name: Status Page on Better Stack
