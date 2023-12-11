@@ -11,10 +11,10 @@ sites:
   - name: Light Server
     check: "tcp-ping"
     url: $LIGHT_SERVER
+    port: 81
   - name: Root
     check: "tcp-ping"
     url: $ROOT_SERVER
-    port: 81
   - name: Blog
     url: https://blog.georgedong.tech
   - name: Home Page
