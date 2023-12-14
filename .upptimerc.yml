@@ -9,12 +9,17 @@ sites:
   - name: Image Storage 1
     url: $STORAGE1_SITE
   - name: Light Server
-    check: "tcp-ping"
     url: $LIGHT_SERVER
-    port: 81
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 304
   - name: Root
-    check: "tcp-ping"
     url: $ROOT_SERVER
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 304
   - name: Blog
     url: https://blog.georgedong.tech
   - name: Home Page
