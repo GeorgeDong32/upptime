@@ -14,12 +14,14 @@ sites:
       - 200
       - 201
       - 304
+    __dangerous__insecure: true
   - name: Root
     url: $ROOT_SERVER
     expectedStatusCodes:
       - 200
       - 201
       - 304
+    __dangerous__insecure: true
   - name: Blog
     url: https://blog.georgedong.tech
   - name: Home Page
