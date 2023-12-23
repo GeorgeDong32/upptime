@@ -40,7 +40,8 @@ sites:
     url: https://upptime.georgedong.tech
   - name: Status Page on Better Stack
     url: $STATUS_PAGE
-
+assignees:
+  - GeorgeDong32
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
