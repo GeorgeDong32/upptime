@@ -38,8 +38,6 @@ sites:
     icon: https://tailscale.com/files/favicon.ico
   - name: Status Page by upptime
     url: https://upptime.georgedong.tech
-  - name: Status Page on Better Stack
-    url: $STATUS_PAGE
 assignees:
   - GeorgeDong32
 status-website:
