@@ -8,8 +8,10 @@ sites:
     icon: https://vault.bitwarden.com/images/favicon-32x32.png
   - name: Image Storage 1
     url: $STORAGE1_SITE
+    icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/storage.svg
   - name: Light Server
     url: $LIGHT_SERVER
+    icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/server.svg
     expectedStatusCodes:
       - 200
       - 201
@@ -17,6 +19,7 @@ sites:
     __dangerous__insecure: true
   - name: Root
     url: $ROOT_SERVER
+    icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/server.svg
     expectedStatusCodes:
       - 200
       - 201
@@ -30,9 +33,10 @@ sites:
     url: https://goodpass.georgedong.tech
   - name: Shortlink Service
     url: https://go.georgedong.tech
+    icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/link.svg
   - name: Emergency Plan
     url: $EMERGENCY_PLAN_SITE
-    icon: https://www.notion.so/front-static/favicon.ico
+    icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/plan.svg
   - name: Tailscale
     url: $TAILSCALE
     icon: https://tailscale.com/files/favicon.ico
