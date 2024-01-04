@@ -12,6 +12,7 @@ sites:
   - name: Light Server
     url: $LIGHT_SERVER
     icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/server.svg
+    check: "tcp-ping"
     expectedStatusCodes:
       - 200
       - 201
