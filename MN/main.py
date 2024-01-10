@@ -26,6 +26,7 @@ def main():
         'feishu_deviceKey': feishu_deviceKey,
     }
 
+    args.issue_content = args.issue_content.replace('`', '')
     message_send = MessageSend()
     message_send.send_all(message_tokens, args.issue_title, args.issue_content)
 
