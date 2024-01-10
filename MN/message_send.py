@@ -171,7 +171,7 @@ class MessageSend:
             "charset": "utf-8"
         }
 
-        data = {"msg_type": "post", "content": {"post": {"zh_cn": {"title": title, "content": [[{"tag": "text", "text": content}]]}}}}
+        data = {"msg_type": "post", "content": {"post": {"zh_cn": {"title": title, "content": [[{"tag": "markdown", "content": content}]]}}}}
 
         resp = requests.post(url, headers=headers, json=data)
         resp_json = resp.json()
