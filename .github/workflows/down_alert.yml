@@ -1,0 +1,26 @@
+name: Down Alert
+on:
+    issues:
+        types: [opened]
+jobs:
+    site_down:
+        name: Send site is down notification
+        if: ${{ !github.event.issue.pull_request }}
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - name: Install requirements
+              run: |
+               pip3 install -r ./MN/requirements.txt
+            - name: Run checkin
+              run: |
+               python3 ./MN/main.py --issue_title "${{ github.event.issue.title }}" --issue_content "${{github.event.issue_content}}"
+              env:
+                PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+                SERVERCHAN_SENDKEY: ${{ secrets.SCKEY }}
+                WECOM_TOKENS: ${{ secrets.WECOM_TOKENS }}
+                WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+                BARK_DEVICEKEY: ${{ secrets.BARK_DEVICEKEY }}
+                FEISHU_DEVICEKEY: ${{ secrets.FEISHU_DEVICEKEY }}
+            - uses: gautamkrishnar/keepalive-workflow@master
+
