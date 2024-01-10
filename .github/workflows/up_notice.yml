@@ -14,7 +14,7 @@ jobs:
                pip3 install -r ./MN/requirements.txt
             - name: Run checkin
               run: |
-               python3 ./MN/main.py --issue_title "✅ Service is now up" --issue_content "${{github.event.issue_comment.body}}"
+               python3 ./MN/main.py --issue_title "✅ Service is now up" --issue_content "${{github.event.issue_comment}}"
               env:
                 PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
                 SERVERCHAN_SENDKEY: ${{ secrets.SCKEY }}
