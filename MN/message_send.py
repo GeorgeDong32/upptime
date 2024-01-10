@@ -171,7 +171,7 @@ class MessageSend:
             "charset": "utf-8"
         }
 
-        data = {"msg_type": "post", "content": {"post": {"zh_cn": {"title": title, "content": [[{"tag": "markdown", "content": content}]]}}}}
+        data = {"msg_type": "interactive", "card": { "elements": [{ "tag": "div", "text": { "content": content, "tag": "lark_md" }}], "header": { "title": { "content": title, "tag": "plain_text"}}}}
 
         resp = requests.post(url, headers=headers, json=data)
         resp_json = resp.json()
@@ -181,3 +181,5 @@ class MessageSend:
             print(f"[Bark][Send Message Response]{resp.text}")
             return -1
         return 0
+    
+    
