@@ -176,9 +176,9 @@ class MessageSend:
         resp = requests.post(url, headers=headers, json=data)
         resp_json = resp.json()
         if resp_json["code"] == 0:
-            print(f"[Bark]Send message to Bark successfully.")
+            print(f"[Feishu]Send message to Feishu successfully.")
         if resp_json["code"] != 0:
-            print(f"[Bark][Send Message Response]{resp.text}")
+            print(f"[Feishu][Send Message Response]{resp.text}")
             return -1
         return 0
     
