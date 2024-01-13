@@ -16,6 +16,7 @@ jobs:
               run: |
                ISSUEC=${{github.event.issue.body}}
                ISSUEC=${ISSUEC//`/\`}
+               echo ISSUEC
                python3 ./MN/main.py --issue_title "${{ github.event.issue.title }}" --issue_content "${{github.event.issue.body}}"
               env:
                 PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
