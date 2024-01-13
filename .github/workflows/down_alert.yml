@@ -16,7 +16,7 @@ jobs:
               run: |
                ISSUEC="\${{github.event.issue.body}}\\"
                ISSUEC=${ISSUEC//)/\)}
-               ISSUEC=${ISSUEC//`/\`)}
+               ISSUEC=${ISSUEC//`/&#96;)}
                echo ISSUEC
                python3 ./MN/main.py --issue_title "${{ github.event.issue.title }}" --issue_content "${{github.event.issue.body}}"
               env:
