@@ -28,7 +28,7 @@ def main():
 
     args.issue_content = args.issue_content.replace('[]', '[&#96;commit-hash&#96;]')
     tempstr = args.issue_content.split('commit/')[1]
-    tempstr = tempstr[0:6]
+    tempstr = tempstr[0:7]
     args.issue_content = args.issue_content.replace('commit-hash', tempstr)
     message_send = MessageSend()
     message_send.send_all(message_tokens, args.issue_title, args.issue_content)
