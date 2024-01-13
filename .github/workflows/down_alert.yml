@@ -14,7 +14,7 @@ jobs:
                pip3 install -r ./MN/requirements.txt
             - name: Run checkin
               run: |
-               ISSUEC=${{github.event.issue.body}}
+               ISSUEC="${{github.event.issue.body}}"
                ISSUEC=${ISSUEC//)/\)}
                ISSUEC=${ISSUEC//`/\`)}
                echo ISSUEC
