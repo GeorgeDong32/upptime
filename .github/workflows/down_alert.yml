@@ -14,8 +14,6 @@ jobs:
                pip3 install -r ./MN/requirements.txt
             - name: Run checkin
               run: |
-               ISSUEC=${"{{github.event.issue.body}}"//\`/&#96;)}
-               echo ISSUEC
                python3 ./MN/main.py --issue_title "${{ github.event.issue.title }}" --issue_content "${{github.event.issue.body}}"
               env:
                 PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
