@@ -28,7 +28,7 @@ def main():
 
     args.issue_content = args.issue_content.replace('[]', '[&#96;commit-hash&#96;]')
     tempstr = args.issue_content.split('commit/')[1]
-    tempstr = tempstr.decode("utf-8")
+    tempstr = tempstr.encode("utf-8")
     tempstr = tempstr[0:6]
     args.issue_content = args.issue_content.replace('commit-hash', tempstr)
     message_send = MessageSend()
