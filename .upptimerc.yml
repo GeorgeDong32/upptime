@@ -32,6 +32,8 @@ sites:
     url: https://www.georgedong.tech
   - name: GoodPass Site
     url: https://goodpass.georgedong.tech
+  - name: Share Site
+    url: $SHARE_SITE
   - name: Shortlink Service
     url: https://go.georgedong.tech
     icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/link.svg
