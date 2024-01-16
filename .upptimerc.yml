@@ -34,6 +34,7 @@ sites:
     url: https://goodpass.georgedong.tech
   - name: Share Site
     url: $SHARE_SITE
+    icon: https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg
   - name: Shortlink Service
     url: https://go.georgedong.tech
     icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/link.svg
