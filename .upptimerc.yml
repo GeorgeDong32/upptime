@@ -45,7 +45,7 @@ sites:
     url: $TAILSCALE
     icon: https://tailscale.com/files/favicon.ico
   - name: Status Page by upptime
-    url: https://upptime.georgedong.tech
+    url: https://uptime.georgedong.tech
 assignees:
   - GeorgeDong32
 status-website:
