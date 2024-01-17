@@ -51,9 +51,9 @@ assignees:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: upptime.georgedong.tech
+  cname: uptime.georgedong.tech
   # baseUrl: /your-repo-name
-  logoUrl: https://upptime.georgedong.tech/image.jpg
+  logoUrl: https://uptime.georgedong.tech/image.jpg
   name: Upptime | GeorgeDong32
   introTitle: "**Uptime of website on georgedong.tech**"
   introMessage: Upptime is the open-source uptime monitor and status page, powered entirely by GitHub. No server required — just GitHub Actions, Issues, and Pages. [**Driven by upptime**](https://github.com/upptime/upptime)
