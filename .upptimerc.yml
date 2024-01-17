@@ -54,9 +54,9 @@ status-website:
   cname: uptime.georgedong.tech
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/GeorgeDong32/upptime/master/assets/favicon.ico
-  name: Upptime | GeorgeDong32
-  introTitle: "**Uptime of website on georgedong.tech**"
-  introMessage: Upptime is the open-source uptime monitor and status page, powered entirely by GitHub. No server required — just GitHub Actions, Issues, and Pages. [**Driven by upptime**](https://github.com/upptime/upptime)
+  name: Uptime | GeorgeDong.Tech
+  introTitle: "**georgedong.tech上的网站状态**"
+  introMessage: 这是一个完全由Github驱动的网站状态监测系统 — 基于Github Action, Issue和Github Page, [**由upptime驱动**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
       href: /
@@ -78,7 +78,7 @@ workflowSchedule:
 # See https://upptime.js.org/docs/configuration
 i18n:
   activeIncidents: 活动事件
-  allSystemsOperational: 所有系统均正常运行
+  allSystemsOperational: 所有服务均正常运行
   incidentReport: "事件 #$NUMBER 报告 →"
   activeIncidentSummary: 发生于 $DATE ，共有 $POSTS 个提交
   incidentTitle: 事件 $NUMBER 的详细信息
@@ -87,7 +87,7 @@ i18n:
   incidentOngoing: 正在进行
   incidentOpenedAt: 开始于
   incidentClosedAt: 结束于
-  incidentSubscribe: 订阅更新
+  incidentSubscribe: 订阅事件
   incidentViewOnGitHub: 在 GitHub 上查看
   incidentCommentSummary: 由 $AUTHOR 在 $DATE 发布
   incidentBack: ← 返回主页
@@ -102,12 +102,12 @@ i18n:
   responseTimeMs: 响应时间（ms）
   loading: 加载中
   navGitHub: GitHub
-  footer: GeorgeDong32保留所有权利。 Copyright © 2023 GeorgeDong32. All Rights Reserved.
+  footer: Copyright © 2023 GeorgeDong32. All Rights Reserved. 由 GeorgeDong32 与 Upptime 和 Github 共同构建。
   rateLimitExceededTitle: 超出速率限制
   rateLimitExceededIntro: 您已超过一小时内可以执行的请求数，因此您必须等待才能再次访问此网站。或者您可以添加 GitHub 个人访问令牌以继续使用本网站。
-  rateLimitExceededWhatDoesErrorMean: 这个错误是什么意思？本网站使用 GitHub API 访问有关我们网站状态的实时数据。默认情况下，GitHub 允许每个 IP 地址每小时 60 个请求，您已经消耗了这些请求。
+  rateLimitExceededWhatDoesErrorMean: 这个错误是什么意思？本网站使用 GitHub API 访问有关我们网站状态的实时数据。默认情况下，GitHub 允许每个 IP 地址每小时 60 发送个请求，您已经超出了这个请求限额。
   rateLimitExceededErrorHowCanFix: 我该如何解决？
-  rateLimitExceededErrorFix: 您可以再等一个小时，您的 IP 地址限制将恢复。或者，您可以添加您的 GitHub 个人访问令牌，这将为您提供每小时额外 5,000 个请求。
+  rateLimitExceededErrorFix: 您可以等待一个小时，直到针对您的 IP 地址的限制被解除。或者您可以添加您的 GitHub 个人访问令牌，这将为您提供每小时额外 5,000 个请求。
   rateLimitExceededGeneratePAT: 了解如何生成个人访问令牌
   rateLimitExceededHasSet: 您有一个个人访问令牌集。
   rateLimitExceededRemoveToken: 删除令牌
@@ -118,34 +118,34 @@ i18n:
   errorIntro: 尝试获取最新状态详细信息时出错。
   errorText: 您可以稍后再试。
   errorHome: 转到主页
-  pastScheduledMaintenance: 过去的预定维护
-  scheduledMaintenance: 定期维护
+  pastScheduledMaintenance: 过去的计划维护
+  scheduledMaintenance: 计划中的维护
   scheduledMaintenanceSummaryStarted: 从 $DATE 开始，持续 $DURATION 分钟
   scheduledMaintenanceSummaryStarts: 从 $DATE 开始，持续 $DURATION 分钟
-  startedAt: 开始在
+  startedAt: 开始于
   startsAt: 开始于
   duration: 持续时间
   durationMin: $DURATION 分钟
   incidentCompleted: 已完成
   incidentScheduled: 已预定
-  url: "链接"
+  url: "网站"
   status: "状态"
-  history: "历史"
+  history: "历史信息"
   responseTime: "响应时间"
   uptime: "正常运行时间"
   up: "🟩 正常运行"
   degraded: "🟨 运行缓慢"
   down: "🟥 停机"
   responseTimeGraphAlt: "响应时间图像"
-  responseTimeDay: "24 小时响应时间"
-  responseTimeWeek: "7 天正常运行时间"
-  responseTimeMonth: "30天的正常运行时间"
-  responseTimeYear: "1年的正常运行时间"
-  uptimeDay: "24 小时正常运行时间"
-  uptimeWeek: "7 天正常运行时间"
-  uptimeMonth: "30天的正常运行时间"
-  uptimeYear: "1年的正常运行时间"
+  responseTimeDay: "24小时平均响应时间"
+  responseTimeWeek: "7天平均响应时间"
+  responseTimeMonth: "30天平均响应时间"
+  responseTimeYear: "1年平均响应时间"
+  uptimeDay: "24小时正常运行时间"
+  uptimeWeek: "7天正常运行时间"
+  uptimeMonth: "30天正常运行时间"
+  uptimeYear: "1年正常运行时间"
   liveStatusHtmlComment: "<！ -实时状态- >"
-  degradedPerformance: "🟨 性能降低"
-  completeOutage: "🟥 全部停机"
-  partialOutage: "🟧 部分停机"
+  degradedPerformance: "🟨 运行缓慢"
+  completeOutage: "🟥 所有应用宕机"
+  partialOutage: "🟧 部分应用宕机"
