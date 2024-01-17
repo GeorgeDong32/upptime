@@ -94,8 +94,8 @@ i18n:
   pastIncidents: 过去的事件
   pastIncidentsResolved: $POSTS 个问题在 $MINUTES 分钟内得到解决
   liveStatus: 实时状态
-  overallUptime: "总体正常运行时间： $UPTIME"
-  overallUptimeTitle: 总体正常运行时间
+  overallUptime: "总计正常运行时间： $UPTIME"
+  overallUptimeTitle: 总计正常运行时间
   averageResponseTime: "平均响应时间: $TIMEms"
   averageResponseTimeTitle: 平均响应时间
   sevelDayResponseTime: 近 7 天平均响应时间
