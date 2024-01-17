@@ -54,7 +54,8 @@ status-website:
   cname: uptime.georgedong.tech
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/GeorgeDong32/upptime/master/assets/favicon.ico
-  name: Uptime | GeorgeDong.Tech
+  favicon: https://raw.githubusercontent.com/GeorgeDong32/upptime/master/assets/favicon.ico
+  name: Uptime | GeorgeDong.tech
   introTitle: "**georgedong.tech上的网站状态**"
   introMessage: 这是一个完全由Github驱动的网站状态监测系统 — 基于Github Action, Issue和Github Page, [**由upptime驱动**](https://github.com/upptime/upptime)
   navbar:
