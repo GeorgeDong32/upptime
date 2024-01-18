@@ -89,6 +89,7 @@ workflowSchedule:
   uptime: "0 0 * * *"
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+
 i18n:
   activeIncidents: 活动事件
   allSystemsOperational: 所有服务均正常运行
