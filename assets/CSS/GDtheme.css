@@ -75,3 +75,12 @@
     --graph-opacity: light-dark(var(--light-graph-opacity), var(--dark-graph-opacity));
     --graph-filter: light-dark(var(--light-graph-filter), var(--dark-graph-filter));
 }
+
+.light {
+  /* forces light color-scheme */
+  color-scheme: light;
+}
+.dark {
+  /* forces dark color-scheme */
+  color-scheme: dark;
+}
