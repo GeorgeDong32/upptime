@@ -68,8 +68,10 @@ status-website:
   introTitle: "**georgedong.tech上的网站状态**"
   introMessage: 这是一个完全由Github驱动的网站状态监测系统 — 基于Github Action, Issue和Github Page, [**由upptime驱动**](https://github.com/upptime/upptime)
   navbar:
-    - title: Status
+    - title: Uptime
       href: /
+    - title: Status
+      href: https://status.georgedong.tech
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
   robotsText: "User-agent: * \n Disallow: /"
@@ -157,5 +159,5 @@ i18n:
   uptimeYear: "1年正常运行时间"
   liveStatusHtmlComment: "<！ -实时状态- >"
   degradedPerformance: "🟨 运行缓慢"
-  completeOutage: "🟥 所有应用宕机"
-  partialOutage: "🟧 部分应用宕机"
+  completeOutage: "🟥 所有服务均宕机"
+  partialOutage: "🟧 部分服务宕机"
