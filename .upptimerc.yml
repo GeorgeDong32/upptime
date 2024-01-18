@@ -35,17 +35,26 @@ sites:
   - name: Share Site
     url: $SHARE_SITE
     icon: https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg
+  - name: Status Page
+    url: https://status.georgedong.tech
   - name: Shortlink Service
     url: https://go.georgedong.tech
     icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/link.svg
+  - name: Pandora Next
+    url: $PANDORA_SITE
+    icon: https://raw.githubusercontent.com/GeorgeDong32/upptime/master/assets/pandoranext.ico
+  - name: Gemini Pro Chat
+    url: $GEMINI_SITE
+    icon: https://raw.githubusercontent.com/GeorgeDong32/upptime/master/assets/Gemini.png
   - name: Emergency Plan
     url: $EMERGENCY_PLAN_SITE
     icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/plan.svg
   - name: Tailscale
     url: $TAILSCALE
     icon: https://tailscale.com/files/favicon.ico
-  - name: Status Page by upptime
-    url: https://uptime.georgedong.tech
+  - name: Upptime Heartbeat
+    url: https://uptime.betterstack.com/api/v1/heartbeat/$HEARTBEAT_ID
+    icon: https://raw.githubusercontent.com/GeorgeDong32/upptime/master/assets/betterstack.png
 assignees:
   - GeorgeDong32
 status-website:
