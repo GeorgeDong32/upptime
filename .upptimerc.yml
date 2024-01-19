@@ -42,10 +42,10 @@ sites:
     icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/link.svg
   - name: Pandora Next
     url: $PANDORA_SITE
-    icon: https://raw.githubusercontent.com/GeorgeDong32/upptime/master/assets/pandoranext.ico
+    icon: https://uptime.georgedong.tech/icons/pandoranext.ico
   - name: Gemini Pro Chat
     url: $GEMINI_SITE
-    icon: https://raw.githubusercontent.com/GeorgeDong32/upptime/master/assets/Gemini.png
+    icon: https://uptime.georgedong.tech/icons/Gemini.png
   - name: Emergency Plan
     url: $EMERGENCY_PLAN_SITE
     icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/plan.svg
@@ -54,7 +54,7 @@ sites:
     icon: https://tailscale.com/files/favicon.ico
   - name: Upptime Heartbeat
     url: https://uptime.betterstack.com/api/v1/heartbeat/$HEARTBEAT_ID
-    icon: https://raw.githubusercontent.com/GeorgeDong32/upptime/master/assets/betterstack.png
+    icon: https://uptime.georgedong.tech/icons/betterstack.png
 assignees:
   - GeorgeDong32
 status-website:
