@@ -78,10 +78,10 @@ status-website:
   links:
     - rel: stylesheet
       href: https://uptime.georgedong.tech/CSS/mylight.css
-      media: (prefers-color-scheme: light)
+      media: "(prefers-color-scheme: light)"
     - rel: stylesheet
       href: https://uptime.georgedong.tech/CSS/mydark.css
-      media: (prefers-color-scheme: dark)
+      media: "(prefers-color-scheme: dark)"
 
 user-agent: GeorgeDong32
 
