@@ -62,7 +62,6 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: uptime.georgedong.tech
   # baseUrl: /your-repo-name
-  # themeUrl: https://uptime.georgedong.tech/CSS/GDtheme.css
   logoUrl: https://raw.githubusercontent.com/GeorgeDong32/upptime/master/assets/favicon.ico
   favicon: https://raw.githubusercontent.com/GeorgeDong32/upptime/master/assets/favicon.ico
   name: Uptime | GeorgeDong.tech
@@ -76,6 +75,13 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
   robotsText: "User-agent: * \n Disallow: /"
+  links:
+    - rel: stylesheet
+      href: https://uptime.georgedong.tech/CSS/mylight.css
+      media: (prefers-color-scheme: light)
+    - rel: stylesheet
+      href: https://uptime.georgedong.tech/CSS/mydark.css
+      media: (prefers-color-scheme: dark)
 
 user-agent: GeorgeDong32
 
