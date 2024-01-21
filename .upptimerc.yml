@@ -12,7 +12,7 @@ sites:
       - 201
       - 304
     __dangerous__insecure: true
-  - name: Root
+  - name: Server-T1
     url: $ROOT_SERVER
     icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/server.svg
     expectedStatusCodes:
@@ -20,7 +20,7 @@ sites:
       - 201
       - 304
     __dangerous__insecure: true
-  - name: Bitwarden Service
+  - name: Bitwarden
     url: $BITWARDEN_SITE
     icon: https://vault.bitwarden.com/images/favicon-32x32.png
   - name: Image Storage 1
@@ -32,7 +32,7 @@ sites:
     url: https://www.georgedong.tech
   - name: GoodPass Site
     url: https://goodpass.georgedong.tech
-  - name: Share Site
+  - name: Alist
     url: $SHARE_SITE
     icon: https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg
   - name: Status Page
@@ -43,7 +43,7 @@ sites:
   - name: Pandora Next
     url: $PANDORA_SITE
     icon: https://uptime.georgedong.tech/icons/pandoranext.ico
-  - name: Gemini Pro Chat
+  - name: Gemini Chat
     url: $GEMINI_SITE
     icon: https://uptime.georgedong.tech/icons/Gemini.png
   - name: Emergency Plan

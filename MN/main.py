@@ -3,7 +3,6 @@ import re
 import argparse
 from message_send import MessageSend
 
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--issue_title', type=str, required=True)
@@ -25,6 +24,7 @@ def main():
         'bark_deviceKey': bark_deviceKey,
         'feishu_deviceKey': feishu_deviceKey,
     }
+
     if('is now up' not in args.issue_title):
         args.issue_content = args.issue_content.replace('[]', '[&#96;commit-hash&#96;]')
         tempstr = args.issue_content.split('commit/')[1]
