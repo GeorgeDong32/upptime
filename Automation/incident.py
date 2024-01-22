@@ -34,8 +34,10 @@ def UpdateIncident():
         "status": args.status,
     }
     response = requests.post(url, headers=headers, json=data)
-
-    return response.json()
+    if(response.status_code == 201 or response.status_code == 200):
+        return response.json()
+    else:
+        return response.text
 
 if __name__ == '__main__':
     UpdateIncident()
