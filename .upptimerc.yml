@@ -23,7 +23,7 @@ sites:
   - name: Bitwarden
     url: $BITWARDEN_SITE
     icon: https://vault.bitwarden.com/images/favicon-32x32.png
-  - name: Image Storage 1
+  - name: Image Storage
     url: $STORAGE1_SITE
     icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/storage.svg
   - name: Blog
