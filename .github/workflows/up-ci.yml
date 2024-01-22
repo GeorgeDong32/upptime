@@ -1,4 +1,4 @@
-name: Up Notice
+name: Up CI
 on:
     issues:
         types: [closed]
@@ -12,7 +12,7 @@ jobs:
             - name: Install requirements
               run: |
                pip3 install -r ./MN/requirements.txt
-            - name: Run checkin
+            - name: Send notification
               run: |
                python3 ./MN/main.py --issue_title "✅ Service is now up" --issue_content "**Resolved:** ${{github.event.issue.title}}"
               env:
@@ -22,4 +22,7 @@ jobs:
                 WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
                 BARK_DEVICEKEY: ${{ secrets.BARK_DEVICEKEY }}
                 FEISHU_DEVICEKEY: ${{ secrets.FEISHU_DEVICEKEY }}
+            - name: Send Incident to Statuspage
+              run: |
+               curl ${{secrets.INCIDENT_API}} -H "Authorization: Bearer ${{secrets.AUTH_TOKEN}}" -H "Content-Type: application/json" -X POST -d "{\"title\": \"${{github.event.issue.title}}\",\"body\": \"${{github.event.issue.body}}\",\"status\": \"close\"}"
             - uses: gautamkrishnar/keepalive-workflow@master

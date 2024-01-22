@@ -1,4 +1,4 @@
-name: Down Alert
+name: Down CI
 on:
     issues:
         types: [opened]
@@ -22,5 +22,8 @@ jobs:
                 WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
                 BARK_DEVICEKEY: ${{ secrets.BARK_DEVICEKEY }}
                 FEISHU_DEVICEKEY: ${{ secrets.FEISHU_DEVICEKEY }}
+            - name: Send Incident to Statuspage
+              run: |
+               curl ${{secrets.INCIDENT_API}} -H "Authorization: Bearer ${{secrets.AUTH_TOKEN}}" -H "Content-Type: application/json" -X POST -d "{\"title\": \"${{github.event.issue.title}}\",\"body\": \"${{github.event.issue.body}}\",\"status\": \"open\"}"
             - uses: gautamkrishnar/keepalive-workflow@master
 
