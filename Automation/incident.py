@@ -19,7 +19,7 @@ def UpdateIncident():
     tempstr = tempstr[0:7]
     body = body.replace('commit-hash', tempstr)
     pattern = r'\[(.*?)\]\((.*?)\)'
-    repl = r'<a href="\2">\1</a>'
+    repl = r'<a href=\"\2\">\1</a>'
     body = re.sub(pattern, repl, body)
     body = body.replace('**', '<b>', 1)
     body = body.replace('**', '</b>', 1)
