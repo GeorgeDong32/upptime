@@ -11,10 +11,10 @@ jobs:
             - uses: actions/checkout@v3
             - name: Install requirements
               run: |
-               pip3 install -r ./MN/requirements.txt
+               pip3 install -r ./Automation/requirements.txt
             - name: Run checkin
               run: |
-               python3 ./MN/main.py --issue_title "${{ github.event.issue.title }}" --issue_content "${{github.event.issue.body}}"
+               python3 ./Automation/main.py --issue_title "${{ github.event.issue.title }}" --issue_content "${{github.event.issue.body}}"
               env:
                 PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
                 SERVERCHAN_SENDKEY: ${{ secrets.SCKEY }}
@@ -24,6 +24,6 @@ jobs:
                 FEISHU_DEVICEKEY: ${{ secrets.FEISHU_DEVICEKEY }}
             - name: Send Incident to Statuspage
               run: |
-               curl ${{secrets.INCIDENT_API}} -H "Authorization: Bearer ${{secrets.AUTH_TOKEN}}" -H "Content-Type: application/json" -X POST -d "{\"title\": \"${{github.event.issue.title}}\",\"body\": \"${{github.event.issue.body}}\",\"status\": \"open\"}"
+                python3 ./Automation/incident.py --token "${{secrets.AUTH_TOKEN}}" --url "${{secrets.INCIDENT_API}}" --title "${{github.event.issue.title}}" --content "${{github.event.issue.body}}" --status "open"
             - uses: gautamkrishnar/keepalive-workflow@master
 
