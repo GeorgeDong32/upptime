@@ -1,6 +1,6 @@
 import argparse
 import requests
-import MarkdownParser
+import re
 
 def UpdateIncident():
     parser = argparse.ArgumentParser()
@@ -13,18 +13,24 @@ def UpdateIncident():
     url = args.url
     token = args.token
     body = args.content
-    body = body.replace('[]', '[&#96;commit-hash&#96;]')
+    # 处理 body
+    body = body.replace('[]', '[commit-hash]')
     tempstr = body.split('commit/')[1]
     tempstr = tempstr[0:7]
     body = body.replace('commit-hash', tempstr)
-    htmlbody = MarkdownParser.parse(body)
+    pattern = r'\[(.*?)\]\((.*?)\)'
+    repl = r'<a href="\2">\1</a>'
+    body = re.sub(pattern, repl, body)
+    body = body.replace('**', '<b>', 1)
+    body = body.replace('**', '</b>', 1)
+    body = body.replace('()', '')
     headers = {
-        "Authorization": f"Bearer {token}",  # 使用你的Token
+        "Authorization": f"Bearer {token}",
         "Content-Type": "application/json"
     }
     data={
         "title": args.title,
-        "body": htmlbody,
+        "body": body,
         "status": args.status,
     }
     response = requests.post(url, headers=headers, json=data)
