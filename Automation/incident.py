@@ -24,7 +24,7 @@ def UpdateIncident():
     #body = body.replace('\"', '\\"', 2)
     body = body.replace('**', '<b>', 1)
     body = body.replace('**', '</b>', 1)
-    body = body.replace('()', '')
+    body = body.replace('() ', '')
     headers = {
         "Authorization": f"Bearer {token}",
         "Content-Type": "application/json"
