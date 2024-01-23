@@ -21,7 +21,7 @@ def UpdateIncident():
     pattern = r'\[(.*?)\]\((.*?)\)'
     repl = r'<a href="\2">\1</a>'
     body = re.sub(pattern, repl, body, flags=re.DOTALL)
-    body = body.replace('\"', '\\"', 2)
+    #body = body.replace('\"', '\\"', 2)
     body = body.replace('**', '<b>', 1)
     body = body.replace('**', '</b>', 1)
     body = body.replace('()', '')
