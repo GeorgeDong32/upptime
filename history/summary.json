@@ -63,19 +63,19 @@
     "url": "$STORAGE1_SITE",
     "icon": "https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/storage.svg",
     "slug": "image-storage",
-    "status": "down",
-    "uptime": "99.22%",
-    "uptimeDay": "97.04%",
-    "uptimeWeek": "99.22%",
-    "uptimeMonth": "99.22%",
-    "uptimeYear": "99.22%",
-    "time": 1196,
-    "timeDay": 1425,
-    "timeWeek": 1196,
-    "timeMonth": 1196,
-    "timeYear": 1196,
+    "status": "up",
+    "uptime": "98.96%",
+    "uptimeDay": "96.03%",
+    "uptimeWeek": "98.96%",
+    "uptimeMonth": "98.96%",
+    "uptimeYear": "98.96%",
+    "time": 1154,
+    "timeDay": 1316,
+    "timeWeek": 1154,
+    "timeMonth": 1154,
+    "timeYear": 1154,
     "dailyMinutesDown": {
-      "2024-01-25": 42
+      "2024-01-25": 57
     }
   },
   {
