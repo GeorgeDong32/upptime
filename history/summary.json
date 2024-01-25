@@ -12,7 +12,7 @@
     "uptimeYear": "98.54%",
     "time": 222,
     "timeDay": 2,
-    "timeWeek": 4,
+    "timeWeek": 3,
     "timeMonth": 124,
     "timeYear": 222,
     "dailyMinutesDown": {
@@ -27,9 +27,9 @@
     "url": "$ROOT_SERVER",
     "icon": "https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/server.svg",
     "slug": "server-t1",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -38,7 +38,9 @@
     "timeWeek": 712,
     "timeMonth": 712,
     "timeYear": 712,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-01-25": 0
+    }
   },
   {
     "name": "Bitwarden",
@@ -64,11 +66,11 @@
     "icon": "https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/storage.svg",
     "slug": "image-storage",
     "status": "up",
-    "uptime": "98.96%",
+    "uptime": "98.99%",
     "uptimeDay": "96.03%",
-    "uptimeWeek": "98.96%",
-    "uptimeMonth": "98.96%",
-    "uptimeYear": "98.96%",
+    "uptimeWeek": "98.99%",
+    "uptimeMonth": "98.99%",
+    "uptimeYear": "98.99%",
     "time": 1154,
     "timeDay": 1316,
     "timeWeek": 1154,
@@ -91,7 +93,7 @@
     "uptimeYear": "100.00%",
     "time": 301,
     "timeDay": 255,
-    "timeWeek": 278,
+    "timeWeek": 283,
     "timeMonth": 333,
     "timeYear": 301,
     "dailyMinutesDown": {}
@@ -109,7 +111,7 @@
     "uptimeYear": "99.47%",
     "time": 198,
     "timeDay": 105,
-    "timeWeek": 132,
+    "timeWeek": 137,
     "timeMonth": 136,
     "timeYear": 198,
     "dailyMinutesDown": {
@@ -130,7 +132,7 @@
     "uptimeYear": "99.59%",
     "time": 246,
     "timeDay": 253,
-    "timeWeek": 170,
+    "timeWeek": 179,
     "timeMonth": 178,
     "timeYear": 246,
     "dailyMinutesDown": {
@@ -170,7 +172,7 @@
     "uptimeYear": "100.00%",
     "time": 1435,
     "timeDay": 854,
-    "timeWeek": 1435,
+    "timeWeek": 1481,
     "timeMonth": 1435,
     "timeYear": 1435,
     "dailyMinutesDown": {}
@@ -188,7 +190,7 @@
     "uptimeYear": "100.00%",
     "time": 3286,
     "timeDay": 3482,
-    "timeWeek": 3371,
+    "timeWeek": 3356,
     "timeMonth": 3305,
     "timeYear": 3286,
     "dailyMinutesDown": {}
@@ -244,7 +246,7 @@
     "uptimeYear": "99.98%",
     "time": 441,
     "timeDay": 295,
-    "timeWeek": 436,
+    "timeWeek": 411,
     "timeMonth": 425,
     "timeYear": 441,
     "dailyMinutesDown": {
@@ -264,7 +266,7 @@
     "uptimeYear": "100.00%",
     "time": 140,
     "timeDay": 125,
-    "timeWeek": 104,
+    "timeWeek": 107,
     "timeMonth": 141,
     "timeYear": 140,
     "dailyMinutesDown": {}
@@ -282,7 +284,7 @@
     "uptimeYear": "100.00%",
     "time": 297,
     "timeDay": 169,
-    "timeWeek": 297,
+    "timeWeek": 302,
     "timeMonth": 297,
     "timeYear": 297,
     "dailyMinutesDown": {}
