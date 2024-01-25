@@ -63,18 +63,20 @@
     "url": "$STORAGE1_SITE",
     "icon": "https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/storage.svg",
     "slug": "image-storage",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1125,
-    "timeDay": 1552,
-    "timeWeek": 1125,
-    "timeMonth": 1125,
-    "timeYear": 1125,
-    "dailyMinutesDown": {}
+    "time": 1276,
+    "timeDay": 1763,
+    "timeWeek": 1276,
+    "timeMonth": 1276,
+    "timeYear": 1276,
+    "dailyMinutesDown": {
+      "2024-01-25": 0
+    }
   },
   {
     "name": "Blog",
