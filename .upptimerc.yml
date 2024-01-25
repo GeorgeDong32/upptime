@@ -15,6 +15,7 @@ sites:
   - name: Server-T1
     url: $ROOT_SERVER
     icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/server.svg
+    check: "tcp-ping"
     expectedStatusCodes:
       - 200
       - 201
