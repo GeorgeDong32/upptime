@@ -42,9 +42,9 @@ sites:
   - name: Shortlink Service
     url: https://go.georgedong.tech
     icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/link.svg
-  - name: Pandora Next
-    url: $PANDORA_SITE
-    icon: https://uptime.georgedong.tech/icons/pandoranext.ico
+  - name: AI Chat
+    url: $AI_CHAT
+    icon: https://uptime.georgedong.tech/icons/NextChat.svg
   - name: Gemini Chat
     url: $GEMINI_SITE
     icon: https://uptime.georgedong.tech/icons/Gemini.png
