@@ -5,7 +5,7 @@ repo: upptime # The name of this repository
 sites:
   - name: Light Server
     url: $LIGHT_SERVER
-    icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/server.svg
+    icon: https://uptime.georgedong.tech/icons/server.svg
     check: "tcp-ping"
     expectedStatusCodes:
       - 200
@@ -14,7 +14,7 @@ sites:
     __dangerous__insecure: true
   - name: Server-T1
     url: $ROOT_SERVER
-    icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/server.svg
+    icon: https://uptime.georgedong.tech/icons/server.svg
     check: "tcp-ping"
     expectedStatusCodes:
       - 200
@@ -26,7 +26,7 @@ sites:
     icon: https://vault.bitwarden.com/images/favicon-32x32.png
   - name: Image Storage
     url: $STORAGE1_SITE
-    icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/storage.svg
+    icon: https://uptime.georgedong.tech/icons/storage.svg
   - name: Blog
     url: https://blog.georgedong.tech
   - name: Home Page
@@ -41,7 +41,7 @@ sites:
     icon: https://raw.githubusercontent.com/GeorgeDong32/upptime/master/assets/icons/statuspage-io.png
   - name: Shortlink Service
     url: https://go.georgedong.tech
-    icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/link.svg
+    icon: https://uptime.georgedong.tech/icons/link.svg
   - name: AI Chat
     url: $AI_CHAT
     icon: https://uptime.georgedong.tech/icons/NextChat.svg
@@ -50,7 +50,7 @@ sites:
     icon: https://uptime.georgedong.tech/icons/Gemini.png
   - name: Emergency Plan
     url: $EMERGENCY_PLAN_SITE
-    icon: https://raw.githubusercontent.com/GeorgeDong32/Public-Resources/main/site-icon/plan.svg
+    icon: https://uptime.georgedong.tech/icons/plan.svg
   - name: Tailscale
     url: $TAILSCALE
     icon: https://tailscale.com/files/favicon.ico
