@@ -1,7 +1,7 @@
 url: https://uptime.betterstack.com/api/v1/heartbeat/$HEARTBEAT_ID
 status: up
 code: 200
-responseTime: 224
-lastUpdated: 2024-02-03T23:14:22.438Z
+responseTime: 208
+lastUpdated: 2024-02-04T23:13:38.111Z
 startTime: 2024-01-18T10:23:51.706Z
 generator: Upptime <https://github.com/upptime/upptime>
