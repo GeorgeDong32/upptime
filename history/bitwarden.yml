@@ -1,7 +1,7 @@
 url: $BITWARDEN_SITE
-status: down
-code: 502
-responseTime: 8747
-lastUpdated: 2024-02-05T09:01:03.747Z
+status: up
+code: 200
+responseTime: 735
+lastUpdated: 2024-02-05T09:02:31.588Z
 startTime: 2024-01-21T13:32:50.448Z
 generator: Upptime <https://github.com/upptime/upptime>
