@@ -48,38 +48,36 @@
     "icon": "https://vault.bitwarden.com/images/favicon-32x32.png",
     "slug": "bitwarden",
     "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.90%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 1277,
     "timeDay": 3535,
     "timeWeek": 1762,
     "timeMonth": 1277,
     "timeYear": 1277,
-    "dailyMinutesDown": {
-      "2024-02-05": 1
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Image Storage",
     "url": "$STORAGE1_SITE",
     "icon": "https://uptime.georgedong.tech/icons/storage.svg",
     "slug": "image-storage",
-    "status": "down",
-    "uptime": "99.65%",
-    "uptimeDay": "99.88%",
-    "uptimeWeek": "99.82%",
-    "uptimeMonth": "99.65%",
-    "uptimeYear": "99.65%",
-    "time": 994,
-    "timeDay": 956,
-    "timeWeek": 920,
-    "timeMonth": 994,
-    "timeYear": 994,
+    "status": "up",
+    "uptime": "99.57%",
+    "uptimeDay": "98.76%",
+    "uptimeWeek": "99.66%",
+    "uptimeMonth": "99.57%",
+    "uptimeYear": "99.57%",
+    "time": 1092,
+    "timeDay": 1852,
+    "timeWeek": 1147,
+    "timeMonth": 1092,
+    "timeYear": 1092,
     "dailyMinutesDown": {
-      "2024-02-05": 2,
+      "2024-02-05": 18,
       "2024-02-01": 16,
       "2024-01-25": 57
     }
@@ -153,19 +151,17 @@
     "icon": "https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg",
     "slug": "alist",
     "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.90%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 786,
     "timeDay": 896,
     "timeWeek": 811,
     "timeMonth": 786,
     "timeYear": 786,
-    "dailyMinutesDown": {
-      "2024-02-05": 1
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Status Page",
@@ -209,19 +205,17 @@
     "icon": "https://uptime.georgedong.tech/icons/NextChat.svg",
     "slug": "ai-chat",
     "status": "up",
-    "uptime": "99.97%",
-    "uptimeDay": "99.89%",
-    "uptimeWeek": "99.97%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.97%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 1712,
     "timeDay": 2097,
     "timeWeek": 1712,
     "timeMonth": 1712,
     "timeYear": 1712,
-    "dailyMinutesDown": {
-      "2024-02-05": 2
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Gemini Chat",
