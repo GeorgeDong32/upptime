@@ -5,11 +5,11 @@
     "icon": "https://uptime.georgedong.tech/icons/server.svg",
     "slug": "light-server",
     "status": "up",
-    "uptime": "99.23%",
+    "uptime": "99.24%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.23%",
+    "uptimeYear": "99.24%",
     "time": 139,
     "timeDay": 2,
     "timeWeek": 5,
@@ -267,9 +267,9 @@
     "url": "$TAILSCALE",
     "icon": "https://tailscale.com/files/favicon.ico",
     "slug": "tailscale",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -278,7 +278,9 @@
     "timeWeek": 95,
     "timeMonth": 114,
     "timeYear": 135,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-03-07": 0
+    }
   },
   {
     "name": "Upptime Heartbeat",
