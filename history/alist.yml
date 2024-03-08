@@ -1,7 +1,7 @@
 url: $SHARE_SITE
-status: down
-code: 502
-responseTime: 923
-lastUpdated: 2024-03-08T20:01:09.740Z
+status: up
+code: 200
+responseTime: 11986
+lastUpdated: 2024-03-08T23:15:58.037Z
 startTime: 2024-01-21T13:32:53.288Z
 generator: Upptime <https://github.com/upptime/upptime>
