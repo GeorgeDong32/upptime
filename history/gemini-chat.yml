@@ -1,7 +1,7 @@
 url: $GEMINI_SITE
-status: up
-code: 200
-responseTime: 101
-lastUpdated: 2024-04-09T23:15:21.271Z
+status: down
+code: 403
+responseTime: 30
+lastUpdated: 2024-04-10T11:00:59.706Z
 startTime: 2024-01-21T13:33:01.610Z
 generator: Upptime <https://github.com/upptime/upptime>
