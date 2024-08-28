@@ -1,7 +1,7 @@
 url: $AI_CHAT
-status: down
-code: 502
-responseTime: 957
-lastUpdated: 2024-08-28T14:01:11.144Z
+status: up
+code: 200
+responseTime: 1066
+lastUpdated: 2024-08-28T14:24:22.241Z
 startTime: 2024-02-01T15:44:15.132Z
 generator: Upptime <https://github.com/upptime/upptime>
