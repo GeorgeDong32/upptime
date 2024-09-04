@@ -321,19 +321,19 @@
     "url": "https://uptime.betterstack.com/api/v1/heartbeat/$HEARTBEAT_ID",
     "icon": "https://uptime.georgedong.tech/icons/betterstack.png",
     "slug": "upptime-heartbeat",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 237,
-    "timeDay": 203,
-    "timeWeek": 284,
+    "status": "up",
+    "uptime": "99.98%",
+    "uptimeDay": "95.90%",
+    "uptimeWeek": "99.41%",
+    "uptimeMonth": "99.87%",
+    "uptimeYear": "99.98%",
+    "time": 238,
+    "timeDay": 238,
+    "timeWeek": 283,
     "timeMonth": 257,
-    "timeYear": 237,
+    "timeYear": 238,
     "dailyMinutesDown": {
-      "2024-09-04": 0
+      "2024-09-04": 59
     }
   }
 ]
