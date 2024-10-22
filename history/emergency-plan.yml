@@ -1,7 +1,7 @@
 url: $EMERGENCY_PLAN_SITE
-status: down
-code: 429
-responseTime: 66
-lastUpdated: 2024-10-21T23:17:58.923Z
+status: up
+code: 200
+responseTime: 280
+lastUpdated: 2024-10-22T00:00:20.803Z
 startTime: 2023-11-07T12:23:21.561Z
 generator: Upptime <https://github.com/upptime/upptime>
