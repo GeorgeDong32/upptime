@@ -50,7 +50,7 @@
     "timeDay": 9357,
     "timeWeek": 9772,
     "timeMonth": 9631,
-    "timeYear": 2032,
+    "timeYear": 2035,
     "dailyMinutesDown": {
       "2024-09-16": 75,
       "2024-08-28": 23,
@@ -76,7 +76,7 @@
     "timeDay": 134,
     "timeWeek": 180,
     "timeMonth": 361,
-    "timeYear": 466,
+    "timeYear": 464,
     "dailyMinutesDown": {
       "2024-04-10": 35,
       "2024-02-06": 180,
@@ -98,7 +98,7 @@
     "timeDay": 290,
     "timeWeek": 427,
     "timeMonth": 412,
-    "timeYear": 392,
+    "timeYear": 393,
     "dailyMinutesDown": {
       "2024-03-16": 24
     }
@@ -118,7 +118,7 @@
     "timeDay": 157,
     "timeWeek": 138,
     "timeMonth": 146,
-    "timeYear": 151,
+    "timeYear": 152,
     "dailyMinutesDown": {
       "2024-04-10": 35
     }
@@ -158,7 +158,7 @@
     "timeDay": 265,
     "timeWeek": 216,
     "timeMonth": 250,
-    "timeYear": 1928,
+    "timeYear": 1931,
     "dailyMinutesDown": {
       "2024-11-01": 241,
       "2024-10-31": 479,
@@ -216,7 +216,7 @@
     "timeDay": 168,
     "timeWeek": 134,
     "timeMonth": 163,
-    "timeYear": 2595,
+    "timeYear": 2601,
     "dailyMinutesDown": {
       "2024-09-25": 421,
       "2024-09-24": 438,
@@ -238,7 +238,7 @@
     "timeDay": 121,
     "timeWeek": 118,
     "timeMonth": 129,
-    "timeYear": 3948,
+    "timeYear": 3955,
     "dailyMinutesDown": {
       "2024-10-06": 508,
       "2024-10-05": 1440,
@@ -302,16 +302,16 @@
     "url": "$EMERGENCY_PLAN_SITE",
     "icon": "https://uptime.georgedong.tech/icons/plan.svg",
     "slug": "emergency-plan",
-    "status": "up",
+    "status": "down",
     "uptime": "99.77%",
-    "uptimeDay": "79.15%",
-    "uptimeWeek": "94.05%",
+    "uptimeDay": "95.80%",
+    "uptimeWeek": "94.64%",
     "uptimeMonth": "98.49%",
     "uptimeYear": "99.72%",
-    "time": 370,
-    "timeDay": 233,
-    "timeWeek": 307,
-    "timeMonth": 477,
+    "time": 369,
+    "timeDay": 275,
+    "timeWeek": 304,
+    "timeMonth": 473,
     "timeYear": 349,
     "dailyMinutesDown": {
       "2025-02-02": 60,
