@@ -48,9 +48,6 @@ sites:
   - name: Gemini Chat
     url: $GEMINI_SITE
     icon: https://uptime.georgedong.tech/icons/Gemini.png
-  - name: Emergency Plan
-    url: $EMERGENCY_PLAN_SITE
-    icon: https://uptime.georgedong.tech/icons/plan.svg
   - name: Tailscale
     url: $TAILSCALE
     icon: https://tailscale.com/files/favicon.ico
