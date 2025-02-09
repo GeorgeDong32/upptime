@@ -45,9 +45,6 @@ sites:
   - name: AI Chat
     url: $AI_CHAT
     icon: https://uptime.georgedong.tech/icons/NextChat.svg
-  - name: Gemini Chat
-    url: $GEMINI_SITE
-    icon: https://uptime.georgedong.tech/icons/Gemini.png
   - name: Tailscale
     url: $TAILSCALE
     icon: https://tailscale.com/files/favicon.ico
