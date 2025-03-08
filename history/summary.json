@@ -290,9 +290,9 @@
     "url": "https://uptime.betterstack.com/api/v1/heartbeat/$HEARTBEAT_ID",
     "icon": "https://uptime.georgedong.tech/icons/betterstack.png",
     "slug": "upptime-heartbeat",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.97%",
@@ -302,6 +302,7 @@
     "timeMonth": 238,
     "timeYear": 245,
     "dailyMinutesDown": {
+      "2025-03-08": 0,
       "2025-01-09": 60,
       "2024-12-05": 60,
       "2024-09-04": 59
