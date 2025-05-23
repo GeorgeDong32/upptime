@@ -172,19 +172,19 @@
     "url": "https://status.georgedong.tech",
     "icon": "https://raw.githubusercontent.com/GeorgeDong32/upptime/master/assets/icons/statuspage-io.png",
     "slug": "status-page",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptimeDay": "95.83%",
+    "uptimeWeek": "99.40%",
+    "uptimeMonth": "99.86%",
+    "uptimeYear": "99.99%",
     "time": 861,
-    "timeDay": 675,
-    "timeWeek": 831,
-    "timeMonth": 907,
+    "timeDay": 738,
+    "timeWeek": 835,
+    "timeMonth": 906,
     "timeYear": 849,
     "dailyMinutesDown": {
-      "2025-05-23": 0
+      "2025-05-23": 60
     }
   },
   {
