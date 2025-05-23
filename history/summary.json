@@ -172,18 +172,20 @@
     "url": "https://status.georgedong.tech",
     "icon": "https://raw.githubusercontent.com/GeorgeDong32/upptime/master/assets/icons/statuspage-io.png",
     "slug": "status-page",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 863,
-    "timeDay": 1003,
-    "timeWeek": 900,
-    "timeMonth": 926,
-    "timeYear": 850,
-    "dailyMinutesDown": {}
+    "time": 861,
+    "timeDay": 675,
+    "timeWeek": 831,
+    "timeMonth": 907,
+    "timeYear": 849,
+    "dailyMinutesDown": {
+      "2025-05-23": 0
+    }
   },
   {
     "name": "Shortlink Service",
