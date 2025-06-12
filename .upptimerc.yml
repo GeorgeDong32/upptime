@@ -33,9 +33,6 @@ sites:
     url: https://www.georgedong.tech
   - name: GoodPass Site
     url: https://goodpass.georgedong.tech
-  - name: Alist
-    url: $SHARE_SITE
-    icon: https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg
   - name: Status Page
     url: https://status.georgedong.tech
     icon: https://raw.githubusercontent.com/GeorgeDong32/upptime/master/assets/icons/statuspage-io.png
