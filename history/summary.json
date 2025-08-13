@@ -66,18 +66,20 @@
     "url": "$STORAGE1_SITE",
     "icon": "https://uptime.georgedong.tech/icons/storage.svg",
     "slug": "image-storage",
-    "status": "up",
+    "status": "down",
     "uptime": "99.96%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 395,
-    "timeDay": 125,
-    "timeWeek": 351,
-    "timeMonth": 416,
+    "time": 394,
+    "timeDay": 121,
+    "timeWeek": 321,
+    "timeMonth": 406,
     "timeYear": 363,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-13": 0
+    }
   },
   {
     "name": "Blog",
