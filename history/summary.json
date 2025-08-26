@@ -227,19 +227,19 @@
     "url": "$TAILSCALE",
     "icon": "https://tailscale.com/files/favicon.ico",
     "slug": "tailscale",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 156,
-    "timeDay": 80,
-    "timeWeek": 137,
-    "timeMonth": 182,
+    "status": "up",
+    "uptime": "99.98%",
+    "uptimeDay": "95.85%",
+    "uptimeWeek": "99.41%",
+    "uptimeMonth": "99.86%",
+    "uptimeYear": "99.99%",
+    "time": 155,
+    "timeDay": 74,
+    "timeWeek": 128,
+    "timeMonth": 179,
     "timeYear": 158,
     "dailyMinutesDown": {
-      "2025-08-26": 1
+      "2025-08-26": 60
     }
   },
   {
