@@ -186,12 +186,12 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "98.08%",
+    "uptimeYear": "98.09%",
     "time": 2950,
     "timeDay": 258,
     "timeWeek": 197,
     "timeMonth": 163,
-    "timeYear": 3394,
+    "timeYear": 3390,
     "dailyMinutesDown": {
       "2024-10-06": 508,
       "2024-10-05": 1440,
@@ -224,10 +224,10 @@
     "url": "$TAILSCALE",
     "icon": "https://tailscale.com/files/favicon.ico",
     "slug": "tailscale",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.41%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.40%",
     "uptimeMonth": "99.86%",
     "uptimeYear": "99.99%",
     "time": 155,
@@ -236,6 +236,7 @@
     "timeMonth": 169,
     "timeYear": 159,
     "dailyMinutesDown": {
+      "2025-08-29": 1,
       "2025-08-26": 60
     }
   },
