@@ -29,5 +29,4 @@ jobs:
             - name: Send Incident to Statuspage
               run: |
                 python3 ./Automation/incident.py --token "${{secrets.AUTH_TOKEN}}" --url "${{secrets.INCIDENT_API}}" --title "${{github.event.issue.title}}" --content "${{github.event.issue.body}}" --status "open"
-            - uses: gautamkrishnar/keepalive-workflow@master
 
