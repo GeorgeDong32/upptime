@@ -2,6 +2,10 @@ name: Down CI
 on:
     issues:
         types: [opened]
+permissions:
+  issues: read
+  contents: read
+  actions: read
 jobs:
     site_down:
         name: Send site is down notification
