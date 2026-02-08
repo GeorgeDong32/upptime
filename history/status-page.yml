@@ -1,7 +1,7 @@
 url: https://status.georgedong.tech
-status: up
-code: 200
-responseTime: 13701
-lastUpdated: 2026-02-07T23:33:30.131Z
+status: down
+code: 500
+responseTime: 308
+lastUpdated: 2026-02-08T18:00:57.235Z
 startTime: 2024-01-18T10:23:42.191Z
 generator: Upptime <https://github.com/upptime/upptime>
