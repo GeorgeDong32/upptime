@@ -13,8 +13,8 @@
     "time": 8,
     "timeDay": 7,
     "timeWeek": 3,
-    "timeMonth": 5,
-    "timeYear": 8,
+    "timeMonth": 4,
+    "timeYear": 9,
     "dailyMinutesDown": {}
   },
   {
@@ -41,22 +41,23 @@
     "icon": "https://vault.bitwarden.com/images/favicon-32x32.png",
     "slug": "bitwarden",
     "status": "down",
-    "uptime": "95.49%",
+    "uptime": "95.48%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "89.54%",
+    "uptimeYear": "89.52%",
     "time": 7788,
     "timeDay": 954,
     "timeWeek": 623,
     "timeMonth": 617,
-    "timeYear": 7356,
+    "timeYear": 7355,
     "dailyMinutesDown": {
       "2025-06-06": 61,
       "2025-06-05": 239,
       "2025-11-18": 180,
       "2026-04-21": 119,
-      "2026-06-02": 1326,
+      "2026-06-03": 1,
+      "2026-06-02": 1440,
       "2026-06-01": 1440,
       "2026-05-31": 1440,
       "2026-05-30": 1440,
@@ -110,7 +111,7 @@
     "time": 328,
     "timeDay": 324,
     "timeWeek": 222,
-    "timeMonth": 207,
+    "timeMonth": 211,
     "timeYear": 309,
     "dailyMinutesDown": {
       "2025-08-13": 60,
@@ -122,19 +123,20 @@
     "url": "https://blog.georgedong.tech",
     "icon": "https://icons.duckduckgo.com/ip3/blog.georgedong.tech.ico",
     "slug": "blog",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 648,
-    "timeDay": 655,
-    "timeWeek": 529,
-    "timeMonth": 610,
-    "timeYear": 688,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "92.00%",
+    "uptimeWeek": "98.86%",
+    "uptimeMonth": "99.74%",
+    "uptimeYear": "99.98%",
+    "time": 647,
+    "timeDay": 377,
+    "timeWeek": 475,
+    "timeMonth": 577,
+    "timeYear": 686,
     "dailyMinutesDown": {
-      "2026-06-02": 0
+      "2026-06-03": 1,
+      "2026-06-02": 114
     }
   },
   {
@@ -151,7 +153,7 @@
     "time": 174,
     "timeDay": 112,
     "timeWeek": 91,
-    "timeMonth": 105,
+    "timeMonth": 104,
     "timeYear": 174,
     "dailyMinutesDown": {
       "2025-11-18": 241
@@ -171,7 +173,7 @@
     "time": 170,
     "timeDay": 108,
     "timeWeek": 102,
-    "timeMonth": 128,
+    "timeMonth": 127,
     "timeYear": 170,
     "dailyMinutesDown": {
       "2025-11-18": 241
@@ -191,8 +193,8 @@
     "time": 1118,
     "timeDay": 826,
     "timeWeek": 828,
-    "timeMonth": 912,
-    "timeYear": 1184,
+    "timeMonth": 911,
+    "timeYear": 1185,
     "dailyMinutesDown": {
       "2025-11-18": 181,
       "2025-12-15": 61,
@@ -216,7 +218,7 @@
     "time": 176,
     "timeDay": 157,
     "timeWeek": 115,
-    "timeMonth": 122,
+    "timeMonth": 121,
     "timeYear": 178,
     "dailyMinutesDown": {
       "2025-08-15": 60,
@@ -238,7 +240,7 @@
     "time": 130,
     "timeDay": 72,
     "timeWeek": 51,
-    "timeMonth": 62,
+    "timeMonth": 60,
     "timeYear": 122,
     "dailyMinutesDown": {}
   },
@@ -256,7 +258,7 @@
     "time": 176,
     "timeDay": 155,
     "timeWeek": 143,
-    "timeMonth": 167,
+    "timeMonth": 165,
     "timeYear": 178,
     "dailyMinutesDown": {
       "2025-08-26": 60,
@@ -284,7 +286,7 @@
     "time": 255,
     "timeDay": 163,
     "timeWeek": 158,
-    "timeMonth": 180,
+    "timeMonth": 179,
     "timeYear": 256,
     "dailyMinutesDown": {
       "2025-08-12": 120,
