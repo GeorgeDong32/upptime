@@ -41,20 +41,21 @@
     "icon": "https://vault.bitwarden.com/images/favicon-32x32.png",
     "slug": "bitwarden",
     "status": "down",
-    "uptime": "85.73%",
+    "uptime": "85.66%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "62.68%",
+    "uptimeYear": "62.45%",
     "time": 6119,
     "timeDay": 911,
     "timeWeek": 781,
-    "timeMonth": 747,
-    "timeYear": 5306,
+    "timeMonth": 749,
+    "timeYear": 5293,
     "dailyMinutesDown": {
       "2025-11-18": 180,
       "2026-04-21": 119,
-      "2026-09-09": 253,
+      "2026-09-10": 1,
+      "2026-09-09": 1440,
       "2026-09-08": 1440,
       "2026-09-07": 1440,
       "2026-09-06": 1440,
@@ -207,7 +208,7 @@
     "time": 296,
     "timeDay": 272,
     "timeWeek": 272,
-    "timeMonth": 250,
+    "timeMonth": 253,
     "timeYear": 272,
     "dailyMinutesDown": {
       "2025-11-18": 241
@@ -227,7 +228,7 @@
     "time": 689,
     "timeDay": 689,
     "timeWeek": 801,
-    "timeMonth": 806,
+    "timeMonth": 813,
     "timeYear": 721,
     "dailyMinutesDown": {
       "2026-06-03": 1,
@@ -249,7 +250,7 @@
     "time": 167,
     "timeDay": 258,
     "timeWeek": 187,
-    "timeMonth": 161,
+    "timeMonth": 162,
     "timeYear": 154,
     "dailyMinutesDown": {
       "2025-11-18": 241
@@ -269,7 +270,7 @@
     "time": 167,
     "timeDay": 235,
     "timeWeek": 204,
-    "timeMonth": 161,
+    "timeMonth": 162,
     "timeYear": 156,
     "dailyMinutesDown": {
       "2025-11-18": 241
@@ -289,7 +290,7 @@
     "time": 1119,
     "timeDay": 1204,
     "timeWeek": 1017,
-    "timeMonth": 1016,
+    "timeMonth": 1021,
     "timeYear": 1129,
     "dailyMinutesDown": {
       "2025-11-18": 181,
@@ -315,7 +316,7 @@
     "time": 173,
     "timeDay": 291,
     "timeWeek": 257,
-    "timeMonth": 197,
+    "timeMonth": 199,
     "timeYear": 165,
     "dailyMinutesDown": {
       "2025-11-18": 241,
@@ -327,18 +328,20 @@
     "url": "$AI_CHAT",
     "icon": "https://uptime.georgedong.tech/icons/NextChat.svg",
     "slug": "ai-chat",
-    "status": "up",
+    "status": "down",
     "uptime": "99.17%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 115,
-    "timeDay": 83,
-    "timeWeek": 82,
-    "timeMonth": 77,
+    "timeDay": 55,
+    "timeWeek": 75,
+    "timeMonth": 76,
     "timeYear": 101,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-09-10": 0
+    }
   },
   {
     "name": "Tailscale",
